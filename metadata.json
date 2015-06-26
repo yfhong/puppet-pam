@@ -1,0 +1,37 @@
+{
+  "name": "homer-pam",
+  "version": "0.1.0",
+  "author": "homer",
+  "summary": "Puppet module for managing pam subsystem.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/yfhong/puppet-pam.git",
+  "project_page": "https://github.com/yfhong/puppet-pam",
+  "issues_url": "https://github.com/yfhong/puppet-pam/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "augeasproviders_pam",
+      "version_requirement": ">= 2.1.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
